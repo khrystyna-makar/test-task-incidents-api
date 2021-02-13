@@ -45,16 +45,34 @@ add appsettings.json with connectionString to database named "IncidentsConnectio
 
 API endpoints:    
 - /contact
-- /account
-- /incident
 
-Examples of request body:
+Example of request body:
 >{            
 >	"Email": "test@test.com",     
 >	"FirstName": "John",         
 >	"LastName": "Smith"         
->}            
+>}       
 
+- /account
+
+Example of request body:
+>{     
+> "Name": "account1",                   
+>	"ContactEmail": "test@test.com",     
+>	"ContactFirstName": "John",         
+>	"ContactLastName": "Smith"         
+>}    
+
+- /incident
+
+Example of request body:
+>{      
+> "AccountName": "account1",                  
+>	"ContactFirstName": "Adam",         
+>	"ContactLastName": "Smith"    
+>	"ContactEmail": "test2@test.com",               
+> "Description": "test description"                 
+>}    
 
 
 
