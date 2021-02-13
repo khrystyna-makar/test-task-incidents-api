@@ -24,7 +24,6 @@ namespace IncidentsAPI
             var connectionString = Configuration.GetConnectionString("IncidentsConnection");
             services.AddDbContext<AppDbContext>(opt => opt
                 .UseSqlServer(connectionString));
-               //.UseSqlite($"Data Source={path}/Incidents.db;"));
 
             services.AddScoped<IDataService, DataService>();
 
