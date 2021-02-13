@@ -43,7 +43,7 @@ Environment
 To run locally:      
 add appsettings.json with connectionString to database named "IncidentsConnection"
 
-API endpoints:    
+#### API endpoints:    
 - /contact
 
 Example of request body:
