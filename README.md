@@ -29,11 +29,8 @@ case cannot be created without account
 > incident description,               
 > }                                     
 
-if account name is not in the system, -> return 404
-
-if contact is in the system (check by email), update contact record, link to account if not linked
-
-if not, create new contact with first name, last name, email and link to the account
-
-create new case, for account and populate description 
+if account name is not in the system, -> return 404                                   
+if contact is in the system (check by email), update contact record, link to account if not linked        
+if not, create new contact with first name, last name, email and link to the account         
+create new case, for account and populate description               
 
