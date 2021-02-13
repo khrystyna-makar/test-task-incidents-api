@@ -43,6 +43,24 @@ Environment
 To run locally:      
 add appsettings.json with connectionString to database named "IncidentsConnection"
 
+API endpoints:    
+- /contact
+- /account
+- /incident
+
+Examples of request body:
+>{            
+>	"Email": "test@test.com",     
+>	"FirstName": "John",         
+>	"LastName": "Smith"         
+>}            
+
+
+
+
+
+
+
 
 
 
