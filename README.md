@@ -25,21 +25,14 @@ case cannot be created without account
 
 #### logic for incident creation method
 
-> request body
-
-> {
-
-> account name,
-
-> contact first name,
-
-> contact last name,
-
-> contact email, -> unique identifier,
-
-> incident description,
-
-> }
+> request body                          
+> {                                     
+> account name,                         
+> contact first name,                   
+> contact last name,                    
+> contact email, -> unique identifier,  
+> incident description,               
+> }                                     
 
 if account name is not in the system, -> return 404
 
